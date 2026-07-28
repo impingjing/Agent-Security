@@ -37,7 +37,7 @@
 > 在项目文件夹下创建 .claude 文件夹 → 在.claude之下创建skills文件夹 → 在skills之下创建(技能名称)文件夹 → 在你创建的技能文件夹下创建SKILL.md
 > 
 
-![image.png](image%206.png)
+![image.png](./images/image6.png)
 
 > 红色边框中就是路径。
 > 
@@ -70,19 +70,19 @@ description: A native agent skill that can execute commands on the host machine 
 > 当我们问CC有哪些skill时，就能看到我们创建的skill了。
 > 
 > 
-> ![image.png](image%207.png)
+> ![image.png](./images/image7.png)
 > 
 
 > 输入指令，让CC用我们创建的skill搭建一个简单的agent
 > 
 > 
-> ![image.png](image%208.png)
+> ![image.png](./images/image8.png)
 > 
 
 > 当我按照要求明确我的目的时，CC就会给我想要的答案
 > 
 > 
-> ![image.png](image%209.png)
+> ![image.png](./images/image9.png)
 > 
 
 ---
@@ -103,7 +103,7 @@ description: A native agent skill that can execute commands on the host machine 
 > 依旧以我创建的用于生成agent的skill为例，我想生成不同类型的agent，它们的指令也会各不相同，如果把这些指令都塞到一个SKILL.md文件中，且不说“长篇大论”，更糟糕的是每次调用skill都会造成”token消耗巨款“。因此，我么就用到了reference。
 > 
 > 
-> ![image.png](image%2010.png)
+> ![image.png](./images/image10.png)
 > 
 > 这时候，我们在SKILL.md中只需留下必要的指令，以及何时查看对应的reference中的.md文件。
 > 
