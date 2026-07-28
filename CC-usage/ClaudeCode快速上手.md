@@ -75,7 +75,7 @@ CC 安装完成后，直接运行 `claude` 命令在国内网络下通常会报�
 > 在终端输入 claude 即可召唤成功！
 > 
 
-![image.png](image.png)
+![image.png](./images/image.png)
 
 ### 一、CC的4种权限模式
 
@@ -88,28 +88,28 @@ CC 安装完成后，直接运行 `claude` 命令在国内网络下通常会报�
 
 #### 计划模式 Plan Mode
 
-![image.png](image%201.png)
+![image.png](./images/image1.png)
 
 > 不直接执行，制定详尽计划，确认后执行。
 > 
 
 #### 手动模式
 
-![image.png](image%202.png)
+![image.png](./images/image2.png)
 
 > 先询问再执行。
 > 
 
 #### 自动编辑 Accept Edits
 
-![image.png](image%203.png)
+![image.png](./images/image3.png)
 
 > 自动文件修改，运行命令需要确认。
 > 
 
 #### 自动模式 Auto mode
 
-![image.png](image%204.png)
+![image.png](./images/image4.png)
 
 > 全权委托，不再询问。
 > 
@@ -123,7 +123,7 @@ CC 安装完成后，直接运行 `claude` 命令在国内网络下通常会报�
 > 在这里，我想让claude code制作一个能够生成logo动画的网站。
 > 
 
-![image.png](image%205.png)
+![image.png](./images/image5.png)
 
 > 打开链接，看看claude code的强大之处！
 > 
@@ -260,7 +260,7 @@ Claude Code 支持多级 `CLAUDE.md` 文件，它们会按优先级叠加生�
 
 ### 1. Skill —— 注入领域知识的“技能包”
 
-[上手Agent SKILL](%E4%B8%8A%E6%89%8BAgent%20SKILL%203aa33e383af780c8b69dfa880af3d5a4.md)
+[上手Agent SKILL](./上手AgentSKILL.md)
 
 Skill 是 Claude Code 最灵活、最轻量级的扩展方式。它本质上是一个 Markdown 文件，存放于 `~/.claude/skills/` 或项目根目录的 `.claude/skills/` 下。当你调用某个 Skill 时，AI 会自动加载其中预设的规则、模板或工作流，从而精准执行特定任务。
 
